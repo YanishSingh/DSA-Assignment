@@ -1,4 +1,6 @@
-public class MinimumCostDecoration {
+package Question1;
+
+public class A {
 
     public static int minCostToDecorate(int[][] costs) {
         if (costs == null || costs.length == 0 || costs[0].length == 0) {
@@ -49,3 +51,5 @@ public class MinimumCostDecoration {
         System.out.println(result); // Output: 7
     }
 }
+
+

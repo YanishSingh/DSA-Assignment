@@ -1,3 +1,5 @@
+package Question4;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +13,7 @@ class TreeNode {
     }
 }
 
-public class ClosestValuesInBST {
+    public class B {
 
     public static List<Integer> closestValues(TreeNode root, double target, int x) {
         List<Integer> result = new ArrayList<>();

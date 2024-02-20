@@ -1,8 +1,9 @@
+package Question4;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class MazeGame {
-
+public class A {
     public static int minStepsToCollectAllKeys(String[] grid) {
         int m = grid.length;
         int n = grid[0].length();
@@ -73,3 +74,5 @@ public class MazeGame {
         System.out.println("Minimum number of moves: " + result); // Output: 8
     }
 }
+
+
